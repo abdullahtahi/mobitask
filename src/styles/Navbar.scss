@@ -1,0 +1,50 @@
+.NavbarContainer {
+  background: #ff512f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #dd2476,
+    #ff512f
+  ) !important; /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #dd2476,
+    #ff512f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  .logo {
+    svg {
+      font-size: 3rem;
+      margin-right: 1rem;
+    }
+  }
+  .systemName {
+    p {
+      font-family: "Poppins";
+      font-weight: 700;
+      font-size: 1.5rem;
+      white-space: nowrap;
+    }
+  }
+  .inputMeContianer {
+    width: 100%;
+    text-align: center;
+    font-family: "Poppins";
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+.myCircle {
+  & svg {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 100vh;
+  }
+}
+.css-1d3bbye {
+  display: flex;
+  justify-content: center;
+}
